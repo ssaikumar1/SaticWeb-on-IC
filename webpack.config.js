@@ -38,7 +38,7 @@ const canisterEnvVariables = initCanisterEnv();
 
 const isDevelopment = process.env.NODE_ENV !== "production";
 
-const frontendDirectory = "icp_ledger_canister_assets";
+const frontendDirectory = "static_canister_assets";
 
 const asset_entry = path.join("src", frontendDirectory, "src", "index.html");
 

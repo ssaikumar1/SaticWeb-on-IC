@@ -1,12 +1,12 @@
 {
   "canisters": {
-      "icp_ledger_canister": {
+      "static_canister": {
           "frontend": {
-              "entrypoint": "src/icp_ledger_canister_assets/src/index.html"
+              "entrypoint": "src/static_canister_assets/src/index.html"
           },
           "source": [
-              "src/icp_ledger_canister_assets/assets",
-              "src/icp_ledger_canister_assets/src/"
+              "src/static_canister_assets/assets",
+              "src/static_canister_assets/src/"
           ],
           "type": "assets"
       }
